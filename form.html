@@ -2,11 +2,123 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>Sedona-Hotel-Search</title>
+    <title>Sedona-feedback-form</title>
   </head>
   <body>
-
-   
-
+    <header class="page-header">
+      <div class="wrapper">
+        <nav class="main-nav  main-nav--closed">
+          <div class="main-nav__wrapper">
+            <button class="btn" type="button"></button>
+            <ul class="main-nav__list">
+              <li class="main-nav__item"><a href="index.html">главная</a></li>
+              <li class="main-nav__item"><a href="photo.html">фото и видео</a></li>
+              <li class="main-nav__item  main-nav__item--active"><a>форма отзыва</a></li>
+              <li class="main-nav__item"><a href="https://htmlacademy.ru/">html academy</a></li>
+            </ul>
+          </div>
+          <div class="top-nav">
+            <div class="top-nav__wrapper">
+              <div class="top-nav__logo">
+                <a class="top-nav__link" href="index.html"><img src="img/logo.svg" width="102" height="83" alt="city of sedona"></a>
+              </div>
+              <button class="btn" type="button"><span>=</span></button>
+            </div>
+          </div>
+        </nav>
+      </div>
+		</header>
+    <main class="form-main">
+      <div class="wrapper">
+        <div class="form-main__logo">
+        </div>
+        <div class="form-main__intro">
+          <h1 class="form-main__title">оставьте свой отзыв</h1>
+          <p class="form-main__description">помогите нашим отелям стать лучше!<br>оставьте отзыв о них, а также о<br>посещенных вами<br>достопримечтельностях</p>
+        </div>
+        <form class="form-main__form">
+          <div class="form-main__block">
+            <h1 class="form-main__title">представьтесь, пожалуйста</h1>
+						<label class="form-main__description">имя:
+              <input type="text" name="form-main-name-field" value="Петр">
+						</label>
+            <label class="form-main__description">фамилия:
+              <input type="text" name="form-main-name-field" value="Иванов">
+						</label>
+            <label class="form-main__description">отчество:
+              <input type="text" name="form-main-name-field" value="Александрович">
+						</label>
+          </div>
+          <div class="form-main__block">
+            <h1 class="form-main__title">контактная информация</h1>
+						<label class="form-main__description">контактный телефон:
+              <input type="tel" name="form-main-name-field" placeholder="Введите телефон" pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}">
+						</label>
+            <label class="form-main__description">электронная почта:
+              <input type="email" name="form-main-name-field" placeholder="Введите e-mail">
+						</label>
+          </div>
+          <div class="form-main__block">
+            <h1 class="form-main__title">ваше общее впечатление</h1>
+						<label class="form-main__radio-description">
+              <input type="radio" name="form-main-impression" value="rather good" checked>
+              Скорее положительное
+						</label>
+						<label class="form-main__radio-description">
+              <input type="radio" name="form-main-impression" value="rather bad">
+              Скорее отрицательное
+						</label>
+            <label class="form-main__radio-description">
+              <input type="radio" name="form-main-impression" value="unable to answer">
+              Затрудняюсь ответить
+						</label>
+          </div>
+          <div class="form-main__block">
+            <h1 class="form-main__title">посещенные достопримечательности</h1>
+						<label class="form-main__checkbox-description">
+              <input type="checkbox" name="devil-brige" checked>
+              Мост Дьявола
+						</label>
+						<label class="form-main__checkbox-description">
+              <input type="checkbox" name="slide-park" checked>
+              Слайд-парк
+						</label>
+           	<label class="form-main__checkbox-description">
+              <input type="checkbox" name="bell-mountain">
+              Гора-Колокол
+						</label>
+           	<label class="form-main__checkbox-description">
+              <input type="checkbox" name="red-rocks" checked>
+              Красные Скалы
+						</label>
+          </div>
+          <div class="form-main__block">
+            <h1 class="form-main__title">опишите свои эмоции</h1>
+            <textarea class="form-main__textarea-description">
+              Опишите подробно все свои восторги
+            </textarea>
+          </div>
+          <input type="submit" class="btn" value="Отправить отзыв">
+        </form>
+      </div>
+    </main>
+    <footer class="page-footer">
+      <div class="wrapper">
+        <div class="page-footer__hashtag">
+          <a href="#">#visitsedona</a>
+        </div>
+        <div class="page-footer__social">
+          <div class="social-links">
+            <a class="social-link  social-link--tw" href="#"></a>
+						<a class="social-link  social-link--fb" href="#"></a>
+						<a class="social-link  social-link--yt" href="#"></a>
+          </div>
+        </div>
+        <div class="page-footer__copyright">
+        	<span class="page-footer__copyrite-title">разработано</span>
+          <a class="btn-copyright" href="https://htmlacademy.ru"></a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

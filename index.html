@@ -6,45 +6,43 @@
   </head>
   <body>
 		<header class="page-header">
-      <div class="page-header__wrapper">
+      <div class="wrapper">
         <nav class="main-nav  main-nav--closed">
           <div class="main-nav__wrapper">
-            <button class="close-btn" type="button"><span>x</span></button>
+            <button class="btn" type="button"></button>
             <ul class="main-nav__list">
-              <li class="main-nav__item  main-nav__item--active"><a class="main-nav__link">главная</a></li>
-              <li class="main-nav__item"><a href="photo.html" class="main-nav__link">фото и видео</a></li>
-              <li class="main-nav__item"><a href="form.html" class="main-nav__link">форма отзыва</a></li>
-              <li class="main-nav__item"><a href="https://htmlacademy.ru/" class="main-nav__link">html academy</a></li>
+              <li class="main-nav__item  main-nav__item--active"><a>главная</a></li>
+              <li class="main-nav__item"><a href="photo.html">фото и видео</a></li>
+              <li class="main-nav__item"><a href="form.html">форма отзыва</a></li>
+              <li class="main-nav__item"><a href="https://htmlacademy.ru/">html academy</a></li>
             </ul>
           </div>
-        </nav>
-        <div class="top-nav">
-          <div class="top-nav__wrapper">
-            <div class="top-nav__logo">
-              <a class="top-nav__link"><img src="img/logo.svg" width="102" height="83" alt="city of sedona"></a>
+          <div class="top-nav">
+            <div class="top-nav__wrapper">
+              <div class="top-nav__logo">
+                <a class="top-nav__link"><img src="img/logo.svg" width="102" height="83" alt="city of sedona"></a>
+              </div>
+              <button class="btn" type="button"><span>=</span></button>
             </div>
-            <button class="open-menu-btn" type="button"><span>=</span></button>
           </div>
-        </div>
+        </nav>
       </div>
 		</header>
-    <main class="page-main">
-      <div class="page-main__wrapper">
-        <header class="page-main__header">
-          <div class="page-main__logo">
-            <img src="img/page-main-logo-background.jpg" width="320" height="390">
-            <img src="img/page-main-logo-triangle-transp-mask.svg" width="320" height="263">
-            <img src="img/page-main-logo-text.svg" width="320" height="210">
+    <main class="index-main">
+      <div class="wrapper">
+        <header class="index-main__header">
+          <div class="index-main__logo">
           </div>
-          <div class="page-main__intro">
-            <p class="page-main__title">Седона - небольшой <br>городок в аризоне,<br>заслуживающий большего!</p>
-            <p class="page-main__description">Седона - небольшой <br>городок в аризоне,<br>заслуживающий большего!</p>
+          <div class="index-main__intro">
+            <h1 class="index-main__title">Седона - небольшой <br>городок в аризоне,<br>заслуживающий большего!</h1>
+            <p class="index-main__description">Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
           </div>
-         </header>
-         <section class="advantages-and-features">
+        </header>
+        <div class="advantages-and-features">
+          <div class="triangle-white-mask">
+          </div>
           <div class="advantage">
             <div class="advantage__text">
-              <img src="img/page-main-logo-triangle-white-mask.svg" width="320" height="263">
               <p class="advantage__title">Настоящий<br>городок</p>
               <p class="advantage__number">№1</p>
               <p class="advantage__description">Седона - не аттракцион для туристов,<br>там течет своя жизнь</p>
@@ -60,7 +58,7 @@
               </div>
               <div class="feature__text">
                 <p class="feature__title">Жилье</p>
-                <p class="feature__description">Рекомендуем пожить в настоящем<br>мотеле, все как в кино!</p>  
+                <p class="feature__description">Рекомендуем пожить в настоящем<br>мотеле, все как в кино!</p>
               </div>
             </div>
             <div class="feature__item">
@@ -113,31 +111,31 @@
               <p class="advantage__description">Большинство едет в гранд-каньон и<br>толпится там</p>
             </div>
           </div>
-        </section>
-        <section class="hotel-search-head">
+        </div>
+        <div class="hotel-search-head">
           <p class="hotel-search-head__title">заинтересовались?</p>
 					<p class="hotel-search-head__description">укажите предполагаемые даты поездки,<br>
 					и мы покажем вам лучшие предложения гостиниц в седоне</p>
 					<div class="hotel-search-head-btn">
-						<a href="#">поиск гостиницы в седоне</a>
+						<a href="#" class="btn">найти гостиницу</a>
 					</div>
-        </section>
-        <section class="map">
+        </div>
+        <div class="map">
           <img class="map__backgroung" src="img/map.jpg" width="320" height="350" alt="sedona-map">
-          <img class="map__marker" src="img/map-marker.svg" width="27" height="27" >
-        </section>
+          <img class="map__marker" src="img/map-marker.svg" width="27" height="27" alt="pointer">
+        </div>
       </div>
     </main>
     <footer class="page-footer">
-      <div class="page-footer-wrapper">
+      <div class="wrapper">
         <div class="page-footer__hashtag">
           <a href="#">#visitsedona</a>
         </div>
         <div class="page-footer__social">
           <div class="social-links">
-            <a class="social-link  social-link--tw" href="#">twitter <span class="icon-twitter"></span></a>
-						<a class="social-link  social-link--fb" href="#">facebook <span class="icon-facebook"></span></a>
-						<a class="social-link  social-link--yt" href="#">youtube <span class="icon-youtube"></span></a>
+            <a class="social-link  social-link--tw" href="#"></a>
+						<a class="social-link  social-link--fb" href="#"></a>
+						<a class="social-link  social-link--yt" href="#"></a>
           </div>
         </div>
         <div class="page-footer__copyright">
