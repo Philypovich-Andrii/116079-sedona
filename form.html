@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Sedona-feedback-form</title>
+  </head>
+  <body>
+    <header class="page-header">
+      <div class="wrapper">
+        <nav class="main-nav  main-nav--closed">
+            <button class="btn" type="button"></button>
+            <ul class="main-nav__list">
+              <li class="main-nav__item"><a href="index.html">главная</a></li>
+              <li class="main-nav__item"><a href="photo.html">фото и видео</a></li>
+              <li class="main-nav__item  main-nav__item--active"><a>форма отзыва</a></li>
+              <li class="main-nav__item"><a href="https://htmlacademy.ru/">html academy</a></li>
+            </ul>
+          <div class="top-nav">
+              <div class="top-nav__logo">
+                <a class="top-nav__link" href="index.html"><img src="img/logo.svg" width="102" height="83" alt="city of sedona"></a>
+              </div>
+              <button class="btn" type="button"></button>
+          </div>
+        </nav>
+      </div>
+		</header>
+    <main class="form-main">
+      <div class="wrapper">
+        <div class="row">
+          <div class="col-12">
+            <div class="form-main__logo">
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="text-block">
+              <h1 class="text-block__title">оставьте свой отзыв</h1>
+              <p class="text-block__description">помогите нашим отелям стать лучше!<br>оставьте отзыв о них, а также о<br>посещенных вами<br>достопримечтельностях</p>
+            </div>
+          </div>
+        </div>
+        <form class="form-main__form">
+          <div class="row">
+            <div class="col-12">
+              <div class="form-block">
+                <h2 class="form-block__title">представьтесь, пожалуйста</h2>
+                <div class="form-block__item">
+                  <label class="form-block__label-normal">имя:
+                    <input type="text" name="form-block-name" placeholder="Петр">
+                  </label>
+                </div>
+                <div class="form-block__item">
+                  <label class="form-block__label-normal">фамилия:
+                    <input type="text" name="form-block-surname" placeholder="Иванов">
+                  </label>
+                </div>
+                <div class="form-block__item">
+                  <label class="form-block__label-normal">отчество:
+                    <input type="text" name="form-block-patronimic" placeholder="Александрович">
+                  </label>
+                </div>
+              </div>          
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <div class="form-block">
+                <h2 class="form-block__title">контактная информация</h2>
+                <div class="form-block__item">
+                  <label class="form-block__label-normal  form-block__label-normal--top">контактный телефон:
+                    <input type="tel" name="form-block-phone" placeholder="Введите телефон" pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}">
+                    <span class="error-message">ошибка, перепроверьте номер</span>
+                  </label>
+                </div>
+                <div class="form-block__item">
+                  <label class="form-block__label-normal  form-block__label-normal--top">электронная почта:
+                    <input type="email" name="form-block-email" placeholder="Введите e-mail">
+                  </label>
+                </div>
+              </div>          
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <div class="form-block">
+                <h2 class="form-block__title">ваше общее впечатление</h2>
+                <div class="form-block__item">
+                  <label class="form-block__label-bold">
+                    <input type="radio" name="form-block-impression" value="rather good" checked>
+                    Скорее положительное
+                  </label>
+                </div>
+                <div class="form-block__item">
+                  <label class="form-block__label-bold">
+                    <input type="radio" name="form-block-impression" value="rather bad">
+                    Скорее отрицательное
+                  </label>
+                </div>
+                <div class="form-block__item">
+                  <label class="form-block__label-bold">
+                    <input type="radio" name="form-block-impression" value="unable to answer">
+                    Затрудняюсь ответить
+                  </label>
+                </div>
+              </div>          
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <div class="form-block">
+                <h2 class="form-block__title">посещенные достопримечательности</h2>
+                <div class="form-block__item">
+                  <label class="form-block__label-bold">
+                    <input type="checkbox" name="devil-brige" checked>
+                    Мост Дьявола
+                  </label>
+                </div>
+                <div class="form-block__item">
+                  <label class="form-block__label-bold">
+                    <input type="checkbox" name="slide-park" checked>
+                    Слайд-парк
+                  </label>
+                </div>
+                <div class="form-block__item">
+                  <label class="form-block__label-bold">
+                    <input type="checkbox" name="bell-mountain">
+                    Гора-Колокол
+                  </label>
+                </div>
+                <div class="form-block__item">
+                  <label class="form-block__label-bold">
+                    <input type="checkbox" name="red-rocks" checked>
+                    Красные Скалы
+                  </label>
+                </div>
+              </div>          
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <div class="form-block">
+                <h2 class="form-block__title">опишите свои эмоции</h2>
+                <div class="form-block__item">
+                  <textarea class="form-block__description">
+                    Опишите подробно все свои восторги
+                  </textarea>
+                </div>
+              </div>          
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <div class="form-block">
+                <input type="submit" class="btn" value="Отправить отзыв">
+              </div>          
+            </div>
+          </div>
+        </form>
+      </div>
+    </main>
+    <footer class="page-footer">
+      <div class="wrapper">
+        <div class="page-footer__hashtag">
+          <a href="#">#visitsedona</a>
+        </div>
+        <div class="page-footer__social">
+          <div class="social-links">
+            <a class="social-link  social-link--tw" href="#"></a>
+						<a class="social-link  social-link--fb" href="#"></a>
+						<a class="social-link  social-link--yt" href="#"></a>
+          </div>
+        </div>
+        <div class="page-footer__copyright">
+        	<span class="page-footer__copyrite-title">разработано</span>
+          <a class="btn-copyright" href="https://htmlacademy.ru"></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
